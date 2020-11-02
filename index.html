@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>한화리조트</title>
+
+<!--    <link href="css/layout.css" rel="stylesheet" type="text/css">-->
+    <link href="css/layout_slide.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/___________GJu_icon.ico">
+
+    <!-- 아이콘폰트4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- 제이쿼리 라이브러리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- 아이콘폰트 -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <script src="./script/main.js"></script>
+
+
+</head>
+
+<body>
+    <div class="r01"></div>
+    <!-- ----------헤더영역 시작------------- -->
+    <header>
+        <div class="header_inner">
+            <h1>
+                <a href="index.html" title=""><img src="img/logo.png" alt="한화리조트로고" class="logo"></a>
+            </h1>
+
+            <nav class="lnb">
+                <a href="login.html" title="로그인">로그인</a> &#124; <a href="join.html" title="회원가입">회원가입</a> &#124; <a href="notice.html" title="공지사항">공지사항</a> &#124; <a href="customer.html" title="고객센터">고객센터</a> <a href="mypage.html" title="마이페이지"><img src="img/mypage.png" alt="마이페이지" class="mypage_icon"></a>
+                <div class="search">
+                    <input type="search" title="검색">
+                    <input type="image" src="img/search_icon.png" alt="검색아이콘">
+                </div>
+            </nav>
+
+            <div class="nav_wrap">
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="reservation.html" title="통합예약">통합예약</a>
+                            <ul class="sub">
+                                <li><a href="online_r.html" title="온라인예약">온라인예약</a></li>
+                                <li><a href="a.html" title="분양회원 추첨접수">분양회원 추첨접수</a></li>
+                                <li><a href="spareroom.html" title="잔여객실조회">잔여객실조회</a></li>
+                                <li><a href="breakfast.html" title="조식예약">조식예약</a></li>
+                                <li><a href="theme.html" title="테마파크 입장권예매">테마파크 입장권예매</a></li>
+                                <li><a href="weather.html" title="날씨정보">날씨정보</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="resort_theme.html" title="">리조트&#x26;테마파크</a>
+                            <ul class="sub">
+                                <li><a href="resort.html" title="리조트">리조트</a></li>
+                                <li><a href="hotel.html" title="호텔">호텔</a></li>
+                                <li><a href="themepark.html" title="테마파크">테마파크</a></li>
+                                <li><a href="j_resort.html" title="제휴리조트">제휴리조트</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="resort_story.html" title="">리조트 스토리</a>
+                            <ul class="sub">
+                                <li><a href="issue_resort.html" title="이슈 인 리조트">이슈 인 리조트</a></li>
+                                <li><a href="mytrip_planner.html" title="마이트립플래너">마이트립플래너</a></li>
+                                <li><a href="resort_foodtrip.html" title="리조트 푸드트립">리조트 푸드트립</a></li>
+                                <li><a href="resort_life.html" title="리조트 라이프">리조트 라이프</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="event_package.html" title="">이벤트&#x26;패키지</a>
+                            <ul class="sub">
+                                <li><a href="event.html" title="이벤트">이벤트</a></li>
+                                <li><a href="package.html" title="패키지">패키지</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </nav>
+            </div>
+
+        </div>
+
+        <!--        <hr class="hr01"> -->
+
+    </header>
+
+
+
+    <!------------콘텐츠영역 시작-------------->
+
+    <!-- visual영역 -->
+    <section id="visual">
+        <div class="section_inner">
+            <!--            <img src="img/visual01.jpg" alt="비쥬얼이미지" class="visual01">-->
+            
+            <!-- 이미지 슬라이드 부분 -->
+            <div class="v_container">
+                <div class="v_wrap">
+                    <div class="v_slide">
+                        <img src="./img/visual03.jpg" alt="">
+                    </div>
+                    
+                    <div class="v_slide">
+                        <img src="./img/visual01.jpg" alt="">
+                    </div>
+                    
+                    <div class="v_slide">
+                        <img src="./img/visual02.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- //////////////////////////////// -->
+            
+            <a href="#" title="이전그림" id="prev_btn"><img src="img/point_l.png" alt="왼쪽 화살표" class="point_l"></a>
+            <a href="#" title="다음그림" id="next_btn"><img src="img/point_r.png" alt="오른쪽 화살표" class="point_r"></a>
+
+            <article class="check_rates">
+                <p class="cys">choose your stay</p>
+                <hr class="cr_hr">
+
+                <div class="select_all">
+
+                    <select name="local" class="select_box" title="지역">
+                        <option value="" selected="selected">LOCAL</option>
+                        <option value="쏘라노">쏘라노</option>
+                        <option value="설악">설악</option>
+                        <option value="백암온천">백암온천</option>
+                        <option value="지리산 호텔">지리산 호텔</option>
+                        <option value="지리산 콘도">지리산 콘도</option>
+                        <option value="용인">용인</option>
+                        <option value="양평">양평</option>
+                        <option value="수안보">수안보</option>
+                        <option value="산정호수">산정호수</option>
+                        <option value="해운대">해운대</option>
+                        <option value="대천">대천</option>
+                        <option value="경주(에톤)">경주(에톤)</option>
+                        <option value="경주(담톤)">경주(담톤)</option>
+                        <option value="제주">제주</option>
+                        <option value="평창">평창</option>
+                        <option value="더플라자">더플라자</option>
+                        <option value="거제">거제</option>
+                        <option value="여수 벨메르">여수 벨메르</option>
+                    </select>
+                    <br>
+
+                    <select name="rooms" class="select_box" title="객실">
+                        <option value="" selected="selected">ROOMS</option>
+                        <option value="디럭스(호텔형)">디럭스(호텔형)</option>
+                        <option value="디럭스">디럭스</option>
+                        <option value="디럭스(뽀로로DRAW)">디럭스(뽀로로DRAW)</option>
+                        <option value="디럭스(뽀로로MAKE)">디럭스(뽀로로MAKE)</option>
+                        <option value="디럭스(뽀로로READ)">디럭스(뽀로로READ)</option>
+                        <option value="디럭스(뽀로로ROLE)">디럭스(뽀로로ROLE)</option>
+                        <option value="로얄">로얄</option>
+                        <option value="프리미엄 스위트">프리미엄 스위트</option>
+                    </select>
+                    <br>
+
+                    <input type="number" title="persons" min="1" placeholder="persons" class="select_box">
+
+                    <br>
+
+                    <div class="checkinout_div">
+                        <label class="checkinout_label">check in</label>
+                        <input type="date" title="date" class="checkinout_date checkin_date">
+                    </div>
+
+                    <div class="checkinout_div">
+                        <label class="checkinout_label">check out</label>
+                        <input type="date" title="date" class="checkinout_date">
+                    </div>
+
+                    <a href="#" title="" class="check_b">check rates</a>
+
+                </div>
+            </article>
+
+            <div class="circle clearfix">
+
+               <ul>
+                   <li class="on"></li>
+                   <li></li>
+                   <li></li>
+               </ul>
+            </div>
+
+            <div class="scroll_icon">
+                <img src="img/scroll_icon.png" alt="스크롤표시">
+            </div>
+
+        </div>
+
+
+        <!-- Package영역 -->
+        <article class="package_s">
+            <div class="package_inner">
+
+                <p class="t_package">package</p>
+                <a href="#" title="">&#43;더보기</a>
+
+
+                <img src="img/yeosu.png" alt="여수 이미지" class="yeosu_img">
+                <p class="t_yeosu">올 여름엔 수백개의 섬이 펼쳐진 해양경관,<br>
+                    풍성한 먹거리와 밤바다로 유명한 곳.<br>
+                    <span>여수</span>로 떠나볼까요?
+                </p>
+                <span class="t_img_yeosu">YEOSU</span>
+
+                <p class="t_barbecue">
+                    #고기러버 #가족과함께 #바비큐파티 #얌미얌미 <br>
+                    양평엔 먹부림체험을 할 수 있는 <br>
+                    셀프바비큐장이 단돈 <span>43,000원!</span>
+
+                </p>
+                <img src="img/barbecue.jpg" alt="바베큐 이미지" class="barbecue_img">
+                <span class="t_img_barbecue">BARBECUE</span>
+
+            </div>
+        </article>
+
+
+
+        <!-- Event영역 -->
+        <article class="event_s">
+
+            <div class="event_inner">
+                <div class="back_rect1"></div>
+                <div class="back_rect2"></div>
+                <h2>event</h2>
+
+                <div class="event_box"></div>
+
+                <ul class="event_list_box_inner">
+                    <li class="healing_travel_box">
+                        <a href="html_file/healing_travle_image.html" title="힐링여행" target="event_iframe">힐링여행</a>
+                    </li>
+
+                    <li class="healing_box">
+                        <a href="html_file/healingimg.html" title="힐링산행" target="event_iframe">힐링산행</a>
+                    </li>
+
+                    <li class="luziland_box">
+                        <a href="html_file/luzilandimg.html" title="루지랜드" target="event_iframe">루지랜드</a>
+                    </li>
+
+                    <li class="sanjung_box">
+                        <a href="html_file/sanjungimg.html" title="산정호수" target="event_iframe">산정호수</a>
+                    </li>
+
+                    <li class="jeju_box">
+                        <a href="html_file/jejuimg.html" title="제주여행" target="event_iframe">제주여행</a>
+                    </li>
+                </ul>
+
+
+                <iframe src="html_file/healing_travle_image.html" title="힐링여행" name="event_iframe" class="event_iframe">
+                </iframe>
+
+                <!--
+                <div class="event_image_inner">
+                    <div class="jeju_image">
+                        <img src="img/jeju.PNG" alt="제주여행">
+                    </div>
+                    
+                    <div class="healing_image">
+                        <img src="img/healing.PNG" alt="제주여행">
+                    </div>
+                    
+                    <div class="luziland_image">
+                        <img src="img/luziland.PNG" alt="제주여행">
+                    </div>
+                    
+                    <div class="sanjung_image">
+                        <img src="img/sanjung.PNG" alt="제주여행">
+                    </div>
+                    
+                    <div class="healing_travel_image">
+                        <img src="img/healing_travel.PNG" alt="제주여행">
+                    </div>
+                    
+                </div>
+-->
+
+            </div>
+
+        </article>
+
+
+
+        <!-- 바디하단영역 -->
+        <article class="body_bottom">
+            <div class="body_bottom_inner">
+                <div class="l_con">
+                    <h2 class="t_movie"><a href="" title="한화리조트 영상 보러가기">한화리조트 영상 보러가기&#x25BD;</a></h2>
+
+<!--
+                    <iframe src="https://youtu.be/2G81eroyOVI" title="한화리조트영상">
+                    </iframe>
+                    
+-->
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/f3p9yfPgWqA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="r_con">
+                    <h2>지도로 리조트 찾기</h2>
+                    <p>여행가고 싶은 지역을 <br>
+                        선택하세요&#33;
+                    </p>
+                    <!--                    <div class="map_box"></div>-->
+
+                    <img src="img/map.png" alt="지도" usemap="#map_location">
+                    <map name="map_location">
+                        <!--                        <area shape="poly" coords="69,25,46,58,20,59,26,73,42,75,64,123,113,109,68,25" class="seoul">-->
+                        <area shape="rect" coords="52,45,100,116" href="./html_file/Gyeonggi.html" alt="경기" target="map">
+
+                        <area shape="rect" coords="122,20,180,105" href="./html_file/Gangwon.html" alt="경기" target="map">
+
+                        <area shape="rect" coords="36,148,82,193" href="./html_file/Chungnam.html" alt="충청남도" target="map">
+
+                        <area shape="rect" coords="100,134,127,158" href="./html_file/Chungbuk.html" alt="충청북도" target="map">
+
+                        <area shape="rect" coords="150,161,227,231" href="./html_file/Gyeongbuk.html" alt="경상북도" target="map">
+
+                        <area shape="rect" coords="51,225,97,260" href="./html_file/Geonbuk.html" alt="전라북도" target="map">
+
+                        <area shape="rect" coords="117,267,184,306" href="./html_file/Gyeongnam.html" alt="경상남도" target="map">
+
+                        <area shape="rect" coords="25,292,87,345" href="./html_file/Geonnam.html" alt="전라남도" target="map">
+
+                        <area shape="rect" coords="17,402,50,412" href="./html_file/Jeju.html" alt="제주도" target="map">
+
+                    </map>
+
+                    <iframe src="./html_file/Gyeonggi.html" name="map" id="map" title="지역별지도" scrolling="no"></iframe>
+
+                </div>
+
+            </div>
+        </article>
+
+
+    </section>
+
+
+    <!------------푸터영역 시작---------------->
+    <footer>
+        <div class="footer_inner">
+            <a href="index.html" title="로고"><img src="img/logo.png" alt="로고"></a>
+
+            <div class="line1"></div>
+
+            <p class="t_tel">고객센터 1588-2299</p>
+
+            <div class="line2"></div>
+
+            <div class="sns">
+                <span>SNS</span>
+                <div class="sns_inner">
+                    <a href="https://www.facebook.com/hanwhahotelandresort" title="페이스북"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UCPQPQLc6sbZgMBrL4EqwJWA" title="유투브"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/hanwharesort_story/" title="인스타그램"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="top_icon">
+                <a href="#none" title="위로올라가기"><img src="img/top_icon.png" alt="위로올라가기"></a>
+            </div>
+
+            <nav class="bottom_nav">
+                <ul>
+                    <li><a href="a.html" title="개인정보처리방법">개인정보처리방법</a></li>
+                    <li><a href="a.html" title="이용약관">이용약관</a></li>
+                    <li><a href="a.html" title="회사소개">회사소개</a></li>
+                    <li><a href="a.html" title="채용안내">채용안내</a></li>
+                    <li><a href="a.html" title="회사소개">회사소개</a></li>
+                    <li><a href="a.html" title="이메일무단수집거인트라넷">이메일무단수집거인트라넷</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer_info">
+                <address>한화호텔앤드리조트(주) 서울특별시 영등포구 63로 50(여의도동) (우)07345 대표자 : 문석 Tel 1588-2299 Fax 02-789-5525 <br>
+                    Copyright&copy; Hanwha Hotels &amp; Resorts. All Rights Reserved. 사업자등록번호 : 101-81-30747 통신판매업 신고번호 : 2015-서울영등포-0907</address>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
